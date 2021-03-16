@@ -126,7 +126,7 @@ header {
 .tech-specs {
   width: 100%;
   padding: 3rem;
-  background-color: rgba(70,107,87,0.2);
+  background-color: rgba(70, 107, 81, 0.2);
 }
 .tech-specs h2 {
   font-family: "Inconsolata", bold; 
@@ -157,6 +157,14 @@ header {
   vertical-align: top;
 }
 
+.tech-specs .content-table table p.nospace {
+  font-family: "Inconsolata";
+  font-size:0.8em;
+  font-weight: 400;
+  vertical-align: top;
+  margin: 0 !important;
+}
+
 .tech-specs .content-table td.icon{
   text-align:center;
   vertical-align: top;
@@ -176,19 +184,23 @@ header {
   transition-duration: 0.2s;
 }
 
-.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.spacer {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
 }
 
-.callout h2 {
-  font-size: 3.5rem;
+.projects {
+  width: 100%;
+  padding: 3rem;
+  background-color: #486f3746;
+}
+
+.projects h2 {
+  font-family: "Inconsolata", bold; 
   font-weight: 700;
-  display: block;
-  max-width: 30rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .portfolio-item {
@@ -216,7 +228,7 @@ header {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
