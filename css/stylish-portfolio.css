@@ -187,7 +187,7 @@ header {
 .spacer {
   width: 100%;
   padding: 0.5rem;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 
 .projects {
