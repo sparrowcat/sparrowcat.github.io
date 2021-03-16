@@ -187,13 +187,13 @@ header {
 .spacer {
   width: 100%;
   padding: 0.5rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 .projects {
   width: 100%;
   padding: 3rem;
-  background-color: #486f3746;
+  background-color: rgba(73, 113, 56, 0.275);
 }
 
 .projects h2 {
