@@ -125,9 +125,14 @@ header {
 /* TECH SPECS */
 .tech-specs {
   width: 100%;
-  padding: 3rem;
+  padding: 0rem 2rem;
+}
+
+.tech-specs .background {
+  padding: 3rem 2rem 3rem 3rem;
   background-color: rgba(70, 107, 81, 0.2);
 }
+
 .tech-specs h2 {
   font-family: "Inconsolata", bold; 
   font-weight: 700;
@@ -192,6 +197,10 @@ header {
 
 .projects {
   width: 100%;
+  padding: 0rem 2rem;
+}
+
+.projects .background {
   padding: 3rem;
   background-color: rgba(73, 113, 56, 0.275);
 }
